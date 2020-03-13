@@ -11,7 +11,7 @@ namespace api.Controllers
     [ApiController]
     [Route("api")]
     public class UserController : ControllerBase
-    {
+    {   
         [HttpGet]
         [Route("users")]
         public IActionResult Get(int page = 1, int rows = 10, string sort = "LastName", string dir = "asc", string filter = "")
