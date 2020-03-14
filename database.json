@@ -1,225 +1,222 @@
-{
-    "totalRecords": 22,
-    "users": [
-      {
-        "id": 1,
-        "firstName": "Colleen",
-        "lastName": "Abs",
-        "email": "colleen@gmail.com",
-        "phone": "1426371578",
-        "city": "Chicago",
-        "address": "86 Main st",
-        "zip": "98525"
-      },
-      {
-        "id": 2,
-        "firstName": "Mike",
-        "lastName": "Avinston",
-        "email": "mike@gmail.com",
-        "phone": "7537535768",
-        "city": "New York",
-        "address": "524 Wall street",
-        "zip": "23512"
-      },
-      {
-        "id": 3,
-        "firstName": "Madison",
-        "lastName": "Bright",
-        "email": "madison@gmail.com",
-        "phone": "2368574567",
-        "city": "Boulder",
-        "address": "256 Colorado Blvd",
-        "zip": "43637"
-      },
-      {
-        "id": 4,
-        "firstName": "Mark",
-        "lastName": "Brown",
-        "email": null,
-        "phone": null,
-        "city": "San Francisco",
-        "address": "367 Forest Drive",
-        "zip": "43565"
-      },
-      {
-        "id": 5,
-        "firstName": "Sandra",
-        "lastName": "Bulloc",
-        "email": "sandra@gmail.com",
-        "phone": "7648734653",
-        "city": "Baltimore",
-        "address": "6436 jersey blvd",
-        "zip": "23467"
-      },
-      {
-        "id": 6,
-        "firstName": "Betsi",
-        "lastName": "Clark",
-        "email": "betsi@gmail.com",
-        "phone": "5351247426",
-        "city": "Des Moines",
-        "address": "452 Rapids street",
-        "zip": "57346"
-      },
-      {
-        "id": 7,
-        "firstName": "Jessica",
-        "lastName": "Dane",
-        "email": "jessica@gmail.com",
-        "phone": "3257685388",
-        "city": "Boston",
-        "address": "2367 Victory ave",
-        "zip": "21256"
-      },
-      {
-        "id": 8,
-        "firstName": "John",
-        "lastName": "Doe",
-        "email": null,
-        "phone": null,
-        "city": "Los Angeles",
-        "address": "1256 Rodeo Dr",
-        "zip": "92456"
-      },
-      {
-        "id": 9,
-        "firstName": "Lisa",
-        "lastName": "Dunn",
-        "email": "lisa@gmail.com",
-        "phone": "4351257909",
-        "city": "Omaha",
-        "address": "8066 Main street",
-        "zip": "64723"
-      },
-      {
-        "id": 10,
-        "firstName": "Grunt",
-        "lastName": "Lee",
-        "email": "grunt@gmail.com",
-        "phone": "6352368855",
-        "city": "Minneapolis",
-        "address": "748 Ind street",
-        "zip": "43623"
-      },
-      {
-        "id": 11,
-        "firstName": "Leo",
-        "lastName": "McRidge",
-        "email": "leo@gmail.com",
-        "phone": "9562358295",
-        "city": "Tampa",
-        "address": "564 Miami road",
-        "zip": "34256"
-      },
-      {
-        "id": 12,
-        "firstName": "Dan",
-        "lastName": "Musk",
-        "email": null,
-        "phone": null,
-        "city": "San Diego",
-        "address": "4752 Sunset Blvd",
-        "zip": "87565"
-      },
-      {
-        "id": 13,
-        "firstName": "Soni",
-        "lastName": "Peek",
-        "email": "soni@gmail.com",
-        "phone": "6353563411",
-        "city": "Ostin",
-        "address": "4635 12 Ave",
-        "zip": "52262"
-      },
-      {
-        "id": 14,
-        "firstName": "Angelina",
-        "lastName": "Pit",
-        "email": "angelina@gmail.com",
-        "phone": "4656542356",
-        "city": "Atlanta",
-        "address": "6536 Lui st",
-        "zip": "85365"
-      },
-      {
-        "id": 15,
-        "firstName": "Mat",
-        "lastName": "Springfield",
-        "email": null,
-        "phone": null,
-        "city": "Las Vegas",
-        "address": "2673 California Ave",
-        "zip": "46346"
-      },
-      {
-        "id": 16,
-        "firstName": "Bradley",
-        "lastName": "Stunn",
-        "email": "bradley@gmail.com",
-        "phone": "7648246623",
-        "city": "Iowa City",
-        "address": "235 Mark Ave",
-        "zip": "73725"
-      },
-      {
-        "id": 17,
-        "firstName": "Kevin",
-        "lastName": "Tarantino",
-        "email": null,
-        "phone": null,
-        "city": "Phoenix",
-        "address": "755 Mulholland Dr",
-        "zip": "56456"
-      },
-      {
-        "id": 18,
-        "firstName": "Liv",
-        "lastName": "Tayler",
-        "email": "liv@gmail.com",
-        "phone": "5764735622",
-        "city": "Richmond",
-        "address": "8758 dc road",
-        "zip": "75424"
-      },
-      {
-        "id": 19,
-        "firstName": "Jackie",
-        "lastName": "Trump",
-        "email": "jackie@gmail.com",
-        "phone": "7583461135",
-        "city": "Washington DC",
-        "address": "1688 Lincoln St",
-        "zip": "15135"
-      },
-      {
-        "id": 20,
-        "firstName": "Maria",
-        "lastName": "Trump",
-        "email": "maria@gmail.com",
-        "phone": "7684572467",
-        "city": "Washington DC",
-        "address": "6537 President str",
-        "zip": "15178"
-      },
-      {
-        "id": 21,
-        "firstName": "Joe",
-        "lastName": "Wee",
-        "email": "joe@gmail.com",
-        "phone": "4637682365",
-        "city": "Washington",
-        "address": "1356 Independence Blvd",
-        "zip": "65734"
-      },
-      {
-        "id": 22,
-        "firstName": "Dani",
-        "lastName": "White",
-        "email": "dani@gmail.com",
-        "phone": "8752351167",
-        "city": "Philadelphia",
-        "address": "642 1st Street",
-        "zip": "12362"
-      }
-    ]
-  }
+[
+    {
+      "id": 1,
+      "firstName": "Colleen",
+      "lastName": "Abs",
+      "email": "colleen@gmail.com",
+      "phone": "1426371578",
+      "city": "Chicago",
+      "address": "86 Main st",
+      "zip": "98525"
+    },
+    {
+      "id": 2,
+      "firstName": "Mike",
+      "lastName": "Avinston",
+      "email": "mike@gmail.com",
+      "phone": "7537535768",
+      "city": "New York",
+      "address": "524 Wall street",
+      "zip": "23512"
+    },
+    {
+      "id": 3,
+      "firstName": "Madison",
+      "lastName": "Bright",
+      "email": "madison@gmail.com",
+      "phone": "2368574567",
+      "city": "Boulder",
+      "address": "256 Colorado Blvd",
+      "zip": "43637"
+    },
+    {
+      "id": 4,
+      "firstName": "Mark",
+      "lastName": "Brown",
+      "email": null,
+      "phone": null,
+      "city": "San Francisco",
+      "address": "367 Forest Drive",
+      "zip": "43565"
+    },
+    {
+      "id": 5,
+      "firstName": "Sandra",
+      "lastName": "Bulloc",
+      "email": "sandra@gmail.com",
+      "phone": "7648734653",
+      "city": "Baltimore",
+      "address": "6436 jersey blvd",
+      "zip": "23467"
+    },
+    {
+      "id": 6,
+      "firstName": "Betsi",
+      "lastName": "Clark",
+      "email": "betsi@gmail.com",
+      "phone": "5351247426",
+      "city": "Des Moines",
+      "address": "452 Rapids street",
+      "zip": "57346"
+    },
+    {
+      "id": 7,
+      "firstName": "Jessica",
+      "lastName": "Dane",
+      "email": "jessica@gmail.com",
+      "phone": "3257685388",
+      "city": "Boston",
+      "address": "2367 Victory ave",
+      "zip": "21256"
+    },
+    {
+      "id": 8,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": null,
+      "phone": null,
+      "city": "Los Angeles",
+      "address": "1256 Rodeo Dr",
+      "zip": "92456"
+    },
+    {
+      "id": 9,
+      "firstName": "Lisa",
+      "lastName": "Dunn",
+      "email": "lisa@gmail.com",
+      "phone": "4351257909",
+      "city": "Omaha",
+      "address": "8066 Main street",
+      "zip": "64723"
+    },
+    {
+      "id": 10,
+      "firstName": "Grunt",
+      "lastName": "Lee",
+      "email": "grunt@gmail.com",
+      "phone": "6352368855",
+      "city": "Minneapolis",
+      "address": "748 Ind street",
+      "zip": "43623"
+    },
+    {
+      "id": 11,
+      "firstName": "Leo",
+      "lastName": "McRidge",
+      "email": "leo@gmail.com",
+      "phone": "9562358295",
+      "city": "Tampa",
+      "address": "564 Miami road",
+      "zip": "34256"
+    },
+    {
+      "id": 12,
+      "firstName": "Dan",
+      "lastName": "Musk",
+      "email": null,
+      "phone": null,
+      "city": "San Diego",
+      "address": "4752 Sunset Blvd",
+      "zip": "87565"
+    },
+    {
+      "id": 13,
+      "firstName": "Soni",
+      "lastName": "Peek",
+      "email": "soni@gmail.com",
+      "phone": "6353563411",
+      "city": "Ostin",
+      "address": "4635 12 Ave",
+      "zip": "52262"
+    },
+    {
+      "id": 14,
+      "firstName": "Angelina",
+      "lastName": "Pit",
+      "email": "angelina@gmail.com",
+      "phone": "4656542356",
+      "city": "Atlanta",
+      "address": "6536 Lui st",
+      "zip": "85365"
+    },
+    {
+      "id": 15,
+      "firstName": "Mat",
+      "lastName": "Springfield",
+      "email": null,
+      "phone": null,
+      "city": "Las Vegas",
+      "address": "2673 California Ave",
+      "zip": "46346"
+    },
+    {
+      "id": 16,
+      "firstName": "Bradley",
+      "lastName": "Stunn",
+      "email": "bradley@gmail.com",
+      "phone": "7648246623",
+      "city": "Iowa City",
+      "address": "235 Mark Ave",
+      "zip": "73725"
+    },
+    {
+      "id": 17,
+      "firstName": "Kevin",
+      "lastName": "Tarantino",
+      "email": null,
+      "phone": null,
+      "city": "Phoenix",
+      "address": "755 Mulholland Dr",
+      "zip": "56456"
+    },
+    {
+      "id": 18,
+      "firstName": "Liv",
+      "lastName": "Tayler",
+      "email": "liv@gmail.com",
+      "phone": "5764735622",
+      "city": "Richmond",
+      "address": "8758 dc road",
+      "zip": "75424"
+    },
+    {
+      "id": 19,
+      "firstName": "Jackie",
+      "lastName": "Trump",
+      "email": "jackie@gmail.com",
+      "phone": "7583461135",
+      "city": "Washington DC",
+      "address": "1688 Lincoln St",
+      "zip": "15135"
+    },
+    {
+      "id": 20,
+      "firstName": "Maria",
+      "lastName": "Trump",
+      "email": "maria@gmail.com",
+      "phone": "7684572467",
+      "city": "Washington DC",
+      "address": "6537 President str",
+      "zip": "15178"
+    },
+    {
+      "id": 21,
+      "firstName": "Joe",
+      "lastName": "Wee",
+      "email": "joe@gmail.com",
+      "phone": "4637682365",
+      "city": "Washington",
+      "address": "1356 Independence Blvd",
+      "zip": "65734"
+    },
+    {
+      "id": 22,
+      "firstName": "Dani",
+      "lastName": "White",
+      "email": "dani@gmail.com",
+      "phone": "8752351167",
+      "city": "Philadelphia",
+      "address": "642 1st Street",
+      "zip": "12362"
+    }
+]
