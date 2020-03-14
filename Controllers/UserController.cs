@@ -14,12 +14,12 @@ namespace api.Controllers
     {   
         [HttpGet]
         [Route("users")]
-        public IActionResult Get(int page = 1, int rows = 10, string sort = "LastName", string dir = "asc", string filter = "")
+        public IActionResult Get(int page = 1, int rows = 10, string sort = "LastName", string dir = "asc", string search = "")
         {
             var users = GetUsers();
-            if(!string.IsNullOrEmpty(filter))
+            if(!string.IsNullOrEmpty(search))
             {
-                var search = filter.ToLower();
+                search = search.ToLower();
                 users = users.Where(g => 
                            (g.FirstName ?? string.Empty).ToLower().Contains(search)
                         || (g.LastName ?? string.Empty).ToLower().Contains(search)
