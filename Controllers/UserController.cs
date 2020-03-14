@@ -62,6 +62,7 @@ namespace api.Controllers
             }
 
             var users = GetUsers();
+            user.Id = users.Max(g => g.Id) + 1;
             users.Add(user);
             SaveUsers(users);
 
