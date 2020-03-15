@@ -54,7 +54,7 @@ namespace api.Controllers
 
         [HttpPost]
         [Route("user")]
-        public IActionResult Add([FromForm]User user)
+        public IActionResult Add([FromBody]User user)
         {
             if(string.IsNullOrWhiteSpace(user.LastName))
             {
@@ -71,7 +71,7 @@ namespace api.Controllers
 
         [HttpPut]
         [Route("user")]
-        public IActionResult Edit([FromForm]User user)
+        public IActionResult Edit([FromBody]User user)
         {
             var users = GetUsers();
             var target = users.FirstOrDefault(g => g.Id == user.Id);
