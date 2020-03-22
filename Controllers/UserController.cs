@@ -5,6 +5,7 @@ using api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Linq.Dynamic.Core;
+using System.Text.RegularExpressions;
 
 namespace api.Controllers
 {
@@ -56,9 +57,10 @@ namespace api.Controllers
         [Route("user")]
         public IActionResult Add([FromBody]User user)
         {
-            if(string.IsNullOrWhiteSpace(user.LastName))
+            var validationResult = ValidateUser(user);
+            if(validationResult.Any())
             {
-                return BadRequest("Last Name is required.");
+                return BadRequest(validationResult);
             }
 
             var users = GetUsers();
@@ -80,9 +82,10 @@ namespace api.Controllers
                 return BadRequest("User not found.");
             }
 
-            if(string.IsNullOrWhiteSpace(user.LastName))
+            var validationResult = ValidateUser(user);
+            if(validationResult.Any())
             {
-                return BadRequest("Last Name is required.");
+                return BadRequest(validationResult);
             }
 
             target.FirstName = user.FirstName;
@@ -125,6 +128,54 @@ namespace api.Controllers
         {
             var json = JsonConvert.SerializeObject(users);
             System.IO.File.WriteAllText("database.json", json);
+        }
+
+        private IDictionary<string, string> ValidateUser(User user)
+        {
+            var results = new Dictionary<string, string>();
+
+            if(string.IsNullOrWhiteSpace(user.FirstName))
+            {
+                results.Add("firstName", "Field must not be empty");
+            }
+
+            if(string.IsNullOrWhiteSpace(user.LastName))
+            {
+                results.Add("lastName", "Field must not be empty");
+            }
+
+            if(string.IsNullOrWhiteSpace(user.Address))
+            {
+                results.Add("address", "Field must not be empty");
+            }
+
+            if(string.IsNullOrWhiteSpace(user.City))
+            {
+                results.Add("city", "Field must not be empty");
+            }
+
+            if(string.IsNullOrWhiteSpace(user.Zip))
+            {
+                results.Add("zip", "Field must not be empty");
+            }
+            else
+            {
+                if(user.Zip.Length != 5 && user.Zip.Length != 10)
+                {
+                    results.Add("zip", "Zip must follow xxxxx or xxxxx-xxxx format");
+                }
+
+            }
+
+            if(!string.IsNullOrWhiteSpace(user.Email))
+            {
+                if (!Regex.IsMatch(user.Email, ".+\\@.+\\..+"))
+                {
+                    results.Add("email", "Email must follow xxx@xx.xx format");
+                }
+            }
+
+            return results;
         }
     }
 }
