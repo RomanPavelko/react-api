@@ -8,7 +8,7 @@ namespace api
 {
     internal static class JwtService
     {
-        private const int TokenExpiration = 86400;  //secs = 1 day
+        private const int TokenExpiration = 3600;  //secs = 1 hour
         private static readonly string TokenIssuerName = "React-API";
         private static readonly string TokenIssuerAddress = "https://react-api.azurewebsites.net/";
         private static readonly SymmetricSecurityKey SigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("5FGE++sf3f==23rfwr3regesf"));

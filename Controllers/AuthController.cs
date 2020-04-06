@@ -23,12 +23,15 @@ namespace api.Controllers
                 return BadRequest("User Name or Password is invalid");
             }
 
-            var claims = new List<Claim>() { new Claim("sid", account.UserName) };
+            var claims = new List<Claim>() 
+            { 
+                new Claim("sid", account.UserName),
+                new Claim("firstName", account.FirstName),
+                new Claim("lastName", account.LastName), 
+            };
+            
             return Ok(new AuthModel
             {
-                UserName = account.UserName,
-                FirstName = account.FirstName,
-                LastName = account.LastName,
                 JwtToken = JwtService.GenerateTokenForUser(claims.ToArray())
             });
         }
