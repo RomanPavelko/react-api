@@ -1,4 +1,4 @@
-# react-api
+# .NET Core API
 Basic CRUD API for react-app (https://react-webui.azurewebsites.net/)
 
 #
